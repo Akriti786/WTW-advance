@@ -22,8 +22,60 @@ export default function HomeScreen() {
   const [moviesByLang, setMoviesByLang] = useState({});
 
   const languages = [
-    { name: "Hollywood", code: "en" }, { name: "Bollywood", code: "hi" }, { name: "Tamil", code: "ta" },
-    { name: "Telugu", code: "te" }, { name: "Kannada", code: "kn" }, { name: "Malayalam", code: "ml" },
+    { name: "Hollywood", code: "en" },
+    { name: "Bollywood", code: "hi" },
+    { name: "Tamil", code: "ta" },
+    { name: "Telugu", code: "te" },
+    { name: "Kannada", code: "kn" },
+    { name: "Malayalam", code: "ml" },
+    { name: "Punjabi", code: "pa" },
+    { name: "Marathi", code: "mr" },
+    { name: "Arabic", code: "ar" },
+    { name: "French", code: "fr" },
+    { name: "German", code: "de" },
+    { name: "Japanese", code: "ja" },
+    { name: "Korean", code: "ko" },
+    { name: "Russian", code: "ru" },
+    { name: "Spanish", code: "es" },
+    { name: "Chinese (Simplified)", code: "zh" },
+    { name: "Italian", code: "it" },
+    { name: "Portuguese", code: "pt" },
+    // { name: "Portuguese (Brazil)", code: "pt-BR" },
+    { name: "Dutch", code: "nl" },
+    { name: "Swedish", code: "sv" },
+    { name: "Norwegian", code: "no" },
+    { name: "Danish", code: "da" },
+    { name: "Finnish", code: "fi" },
+    { name: "Polish", code: "pl" },
+    { name: "Czech", code: "cs" },
+    { name: "Hungarian", code: "hu" },
+    { name: "Romanian", code: "ro" },
+    { name: "Greek", code: "el" },
+    { name: "Turkish", code: "tr" },
+    { name: "Ukrainian", code: "uk" },
+    { name: "Bulgarian", code: "bg" },
+
+    // Asian
+    { name: "Thai", code: "th" },
+    { name: "Vietnamese", code: "vi" },
+    { name: "Indonesian", code: "id" },
+    { name: "Malay", code: "ms" },
+    { name: "Filipino", code: "tl" },
+    { name: "Bengali", code: "bn" },
+    { name: "Urdu", code: "ur" },
+    { name: "Persian", code: "fa" },
+    { name: "Hebrew", code: "he" },
+
+    // Chinese variants
+    // { name: "Chinese (Traditional)", code: "zh-TW" },
+    // { name: "Chinese (Hong Kong)", code: "zh-HK" },
+
+    // Others
+    { name: "Afrikaans", code: "af" },
+    { name: "Swahili", code: "sw" },
+    { name: "Latvian", code: "lv" },
+    { name: "Lithuanian", code: "lt" },
+    { name: "Estonian", code: "et" }
   ];
 
   useEffect(() => {

@@ -16,6 +16,11 @@ export default function TabNavigator() {
       screenOptions={{
         headerShown: false,
         tabBarHideOnKeyboard: true,
+        tabBarStyle: {
+          height: 90,
+          paddingBottom: 35,
+          paddingTop: 5,
+        },
       }}
     >
       {/* Home */}

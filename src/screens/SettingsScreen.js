@@ -79,10 +79,10 @@ export default function SettingsScreen() {
         {/* Footer */}
         <View style={styles.footer}>
           <Text style={{ textAlign: "center", color: colors.text }}>
-            © 2025 MovieApp. All rights reserved.
+            © 2025 Movie Suggestion App. All rights reserved.
           </Text>
           <Text style={{ textAlign: "center", color: colors.text }}>
-            Developed By Akriti
+            Developed By Akriti Shukla
           </Text>
         </View>
       </ScrollView>
